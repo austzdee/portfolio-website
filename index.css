@@ -1,0 +1,174 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6f1; /* Light cream background */
+    color: #4a4a4a; /* Dark gray text */
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header Navigation */
+  header {
+    background-color: #3e2a47; /* Deep brown/purple */
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a:hover {
+    color: #f4c542; /* Gold hover effect */
+  }
+  
+  /* Section styles */
+  .section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Home Section */
+  #home {
+    background-color: #f4c542; /* Soft gold background */
+    color: white;
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 5px solid #3e2a47; /* Dark brown border */
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  #home h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #home p {
+    font-size: 1.2rem;
+    color: #3e2a47; /* Dark brown text */
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #fff7e1; /* Light gold background */
+    color: #333;
+    text-align: left;
+  }
+  
+  #about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  #about h3 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: #f4c542; /* Gold accent */
+  }
+
+  #about ul{
+    text-align: left;
+    padding: 0;
+  }
+  
+  /* Projects Section */
+  #projects {
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .project {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    font-size: 1.6rem;
+    color: #3e2a47; /* Dark brown */
+  }
+  
+  .project p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #fff7e1; /* Light gold background */
+    color: #333;
+  }
+  
+  #contact p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  #contact a {
+    color: #f4c542; /* Gold link color */
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #3e2a47; /* Deep brown background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
