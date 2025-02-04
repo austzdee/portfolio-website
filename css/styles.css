@@ -172,31 +172,70 @@ nav ul li a:hover {
   color: #333;
 }
 
-.projects-list {
+.gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.project {
-  background-color: white;
-  border: 1px solid #ddd;
-  margin: 20px;
-  padding: 20px;
-  width: 100%; /* Adjust width to 100% for mobile */
+.gallery-item {
+  width: calc(33.333% - 20px); /* Three items per row with gap */
   box-sizing: border-box;
-  text-align: left;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (min-width: 769px) {
-  .project {
-    width: 30%; /* Restore original width for larger screens */
+.gallery-item img {
+  width: 100%;
+  height: 80%;
+  border-radius: 8px;
+}
+
+.gallery-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .gallery-item {
+    width: calc(50% - 10px); /* Two items per row */
   }
 }
 
-.project h3 {
-  font-size: 1.6rem;
-  color: #3e2a47; /* Dark brown */
+@media (max-width: 480px) {
+  .gallery-item {
+    width: 100%; /* One item per row */
+  }
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fff7e1; /* Light gold background */
+  color: #333;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+#contact a {
+  color: #f4c542; /* Gold link color */
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #3e2a47; /* Match the header background */
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
 }
