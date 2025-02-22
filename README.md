@@ -1,45 +1,28 @@
-# Project #1: Portfolio
- Personal Portfolio Project
-This is a personal portfolio website showcasing the work and skills of Daniel Okafor, a passionate web developer. The portfolio includes an introduction, information about Daniel's skills and education, a gallery of projects, and contact information.
-Table of Contents
-Project Structure
+# Personal Portfolio
 
-Installation
+## Description
+This is a personal portfolio website for Daniel Okafor, showcasing skills, projects, and contact information.
+The website is designed to provide an overview of Daniel's web development expertise and background.
 
-Usage
+## Features
+- **Responsive Design**: The website is responsive and works on various devices, from desktop to mobile.
+- **Interactive Navigation**: A hamburger menu for mobile devices to ensure easy navigation.
+- **Gallery**: A showcase of projects with links to detailed information.
+- **Contact Information**: Easy access to contact details and social media profiles.
 
-Features
+## Technologies Used
+- **HTML**: For the structure of the website.
+- **CSS**: For styling and layout.
+- **JavaScript**: For interactive elements (if any).
+- **Version Control**: Managed using Git and GitHub.
 
-Technologies Used
+## Sections
+1. **Home**: Introduction and welcome message with a profile image.
+2. **About**: Details about Daniel's background, skills, and education.
+3. **Projects**: A gallery of projects with images and links to more information.
+4. **Contact**: Contact information including email, phone number, and LinkedIn profile.
 
-Contributing
-
-License
-
-Project Structure
-
-├── css
-│   └── styles.css
-├── images
-│   ├── 1.jpg
-│   ├── 2.jpg
-│   ├── 3.webp
-│   ├── 4.jpg
-│   ├── 5.jpg
-│   ├── 6.jpg
-│   └── img1.jpg
-├── index.html
-├── contact.html
-└── README.md
-
-Installation
-To get a local copy up and running, follow these simple steps:
-
-Clone the repository:
-
-bash
-git clone https://github.com/austzdee/portfolio-website.git
-Open the project in your preferred code editor.
-
-Open index.html in your browser to view the portfolio website.
-
+## How to Use
+1. **Clone the repository**
+    ```bash
+     git clone https://github.com/austzdee/portfolio-website.git
