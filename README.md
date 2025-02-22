@@ -26,3 +26,5 @@ The website is designed to provide an overview of Daniel's web development exper
 1. **Clone the repository**
     ```bash
      git clone https://github.com/austzdee/portfolio-website.git
+
+![screenshot of the homepage] (https://github.com/austzdee/portfolio-website/commit/6348d7999b73de8723a5c6014b472ec4a9d8a9d3)
