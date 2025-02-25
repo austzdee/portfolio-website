@@ -22,13 +22,19 @@ The website is designed to provide an overview of Daniel's web development exper
 3. **Projects**: A gallery of projects with images and links to more information.
 4. **Contact**: Contact information including email, phone number, and LinkedIn profile.
 
-## How to Use
-1. **Clone the repository**
-    ```bash
-     git clone https://github.com/austzdee/portfolio-website.git
-<<<<<<< HEAD
-![Screenshot of Home page] (https://github.com/austzdee/portfolio-website/commit/6348d7999b73de8723a5c6014b472ec4a9d8a9d3 "Screensht")
-=======
+## Screenshots
 
-![screenshot of the homepage] (https://github.com/austzdee/portfolio-website/commit/6348d7999b73de8723a5c6014b472ec4a9d8a9d3)
->>>>>>> 3fe9a75215bdb67f51f59eb48b1324eab425c7ea
+![Screenshot of Daniel Okafor's Portfolio Website](https://github.com/austzdee/portfolio-website/blob/main/images/screenshot.png "Daniel Okafor's Portfolio")
+
+### Screenshot Description
+This screenshot showcases Daniel Okafor's personal portfolio website, demonstrating his web development skills. The website has a clean and professional design, featuring a navigation bar with links to "HOME," "ABOUT," "PROJECTS," and "CONTACT."
+
+- **Welcome Section**: A welcoming message "Welcome to My Portfolio" accompanied by a brief introduction, "Hi, I'm Daniel Okafor, a passionate Web Developer."
+- **About Me Section**: Daniel describes his background in front-end development, interest in learning new technologies, and his degree in Computer Science.
+- **Skills Section**: Lists skills such as HTML, CSS, JavaScript, React, Node.js, Version Control (Git, GitHub), Responsive Web Design, and UI/UX Design Principles.
+- **Design**: Uses a yellow and beige color scheme with a circular image of a cityscape at the top center.
+
+This portfolio website highlights Daniel's professional journey and technical skills effectively.
+
+
+
