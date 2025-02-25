@@ -24,7 +24,7 @@ The website is designed to provide an overview of Daniel's web development exper
 
 ## Screenshots
 
-![Screenshot of Daniel Okafor's Portfolio Website](https://github.com/austzdee/portfolio-website/blob/main/images/screenshot.png "Daniel Okafor's Portfolio")
+![Screenshot of Daniel Okafor's Portfolio Website](https://github.com/austzdee/portfolio-website/blob/c565d61673d1b5f4acea8fb774b617bb726d45b7/Screenshot%202025-02-22%20220423.png "Daniel Okafor's Portfolio")
 
 ### Screenshot Description
 This screenshot showcases Daniel Okafor's personal portfolio website, demonstrating his web development skills. The website has a clean and professional design, featuring a navigation bar with links to "HOME," "ABOUT," "PROJECTS," and "CONTACT."
