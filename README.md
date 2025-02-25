@@ -42,7 +42,7 @@ This portfolio website highlights Daniel's professional journey and technical sk
 This screenshot features a collection of six different project thumbnails, each showcasing a unique 
 
 
-![Screenshot of Daniel Okafor's Portfolio Website](https://github.com/austzdee/portfolio-website/blob/main/images/screenshot.png "Daniel Okafor's Portfolio")
+![Screenshot of Daniel Okafor's Portfolio Website](https://github.com/austzdee/portfolio-website/blob/7c182a01c7f1d68298888b703e84bad5e39219f6/Screenshot%20contact.PNG "Daniel Okafor's Portfolio")
 
 ### Screenshot Description
 This screenshot showcases Daniel Okafor's personal portfolio website, highlighting his web development expertise. Key features include:
