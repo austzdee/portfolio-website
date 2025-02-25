@@ -42,3 +42,27 @@ This portfolio website highlights Daniel's professional journey and technical sk
 This screenshot features a collection of six different project thumbnails, each showcasing a unique 
 
 
+![Screenshot of Daniel Okafor's Portfolio Website](https://github.com/austzdee/portfolio-website/blob/main/images/screenshot.png "Daniel Okafor's Portfolio")
+
+### Screenshot Description
+This screenshot showcases Daniel Okafor's personal portfolio website, highlighting his web development expertise. Key features include:
+
+- **Navigation Bar**: Links to "Home," "About," "Projects," and "Contact," ensuring easy navigation across the site.
+- **Welcome Section**: 
+  - Background: Yellow with a circular image of a person standing in a lit-up area.
+  - Text: "Welcome to My Portfolio" in large white font.
+  - Introduction: "Hi, I'm Daniel Okafor, a passionate Web Developer."
+- **Contact Me Section**:
+  - **Email**: austzdee@hotmail.com
+  - **Phone**: +44 234 567 890
+  - **LinkedIn**: Daniel Okafor
+- **Footer**: "© 2025 Daniel Okafor. All Rights Reserved."
+
+This portfolio website presents a clean and professional design, emphasizing Daniel's skills and contact information.
+
+
+![Screenshot of Daniel Okafor's Portfolio Website Contact Page](https://github.com/austzdee/portfolio-website/blob/384844b88ba61093516b7d875e9315679b0648c3/Screenshot%20mobile%20device%20version.png "Daniel Okafor's Portfolio Contact Page")
+
+### Screenshot Description
+This screenshot displays the mobile-responsive interface of Daniel Okafor's portfolio website's contact page. The interface is designed to be user-friendly and visually appealing on mobile devices.
+This mobile-responsive design ensures that users can easily access and interact with the contact information on Daniel's portfolio website, providing a seamless experience.
