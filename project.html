@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Personal Portfolio</title>
-        <link rel="stylesheet" href="./css/styles.css"> <!-- Link to external CSS file -->
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daniel Okafor's personal portfolio showcasing web development projects.">
+    <title>Personal Portfolio - Projects</title>
+    <link rel="stylesheet" href="./css/styles.css"> <!-- Link to external CSS file -->
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon"> <!-- Favicon -->
+</head>
 <body>
     <header>
         <input type="checkbox" id="menu-toggle" class="menu-toggle">
         <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation">&#9776;</label>
-        <nav>
+        <nav aria-label="Main Navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -20,67 +22,64 @@
         </nav>
     </header>
 
-     <!-- Home Section -->
-     <section id="home" class="section">
+    <!-- Home Section -->
+    <section id="home" class="section">
         <div class="container">
             <div class="home-content">
-                <a href="#" target="_top"><img src="./images/img1.jpg" alt="Profile Picture" class="profile-img"> <!-- Profile image -->
-                </a>
+                <a href="#"><img src="./images/img1.jpg" alt="Daniel Okafor Profile Picture" class="profile-img"></a>
                 <div class="intro">
-                    <h1>Welcome to my project section</h1>
-                    
+                    <h1>Welcome to My Project Section</h1>
                 </div>
             </div>
         </div>
     </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="section">
-            <div class="container">
-                <div class="gallery">
-                    <div class="gallery-item">
-                        <a href="https://github.com/austzdee/portfolio-website" target="_blank">
-                            <img src="images/1.jpg" alt="Programming" >
-                        </a>
-                        <a href="https://github.com/austzdee/portfolio-website" target="_blank"><h3>Project 1</h3></a>
-                    </div>
-                    <div class="gallery-item">
-                        <a href="#" target="_blank">
-                            <img src="images/2.jpg" alt="Project 2" >
-                        </a>
-                        <h3>Project 2</h3>
-                    </div>
-                    <div class="gallery-item">
-                        <a href="#" target="_blank">
-                            <img src="images/3.webp" alt="Programming">
-                        </a>
-                        <h3>Project 3</h3>
-                    </div>
-                    <div class="gallery-item">
-                        <a href="#" target="_blank">
-                            <img src="images/4.jpg" alt="JavaScript">
-                        </a>
+    <!-- Projects Section -->
+    <section id="projects" class="section" aria-label="Portfolio Projects">
+        <div class="container">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <a href="https://austzdee.github.io/portfolio-website/#projects" target="_blank">
+                        <img src="images/homepage.PNG" alt="Portfolio Project">
+                        <h3>Profile Portfolio-Website</h3>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://austzdee.github.io/dannitoCafe/index.html" target="_blank">
+                        <img src="images/Screenshot 2025-02-25 163649.png" alt="Coffee Cafe web Project">
+                        <h3>Coffee Cafe Web Project</h3>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://github.com/austzdee/portfolio-website" target="_blank">
+                        <img src="images/3.webp" alt="Github">
+                        <h3>Project </h3>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#" target="_blank">
+                        <img src="images/4.jpg" alt="JavaScript App">
                         <h3>Project 4</h3>
-                    </div>
-                    <div class="gallery-item">
-                        <a href="#" target="_blank">
-                            <img src="images/5.jpg" alt="Git" >
-                        </a>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#" target="_blank">
+                        <img src="images/5.jpg" alt="Git Version Control Project">
                         <h3>Project 5</h3>
-                    </div>
-                    <div class="gallery-item">
-                        <a href="#" target="_blank">
-                            <img src="images/6.jpg" alt="React">
-                        </a>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#" target="_blank">
+                        <img src="images/6.jpg" alt="React Development Project">
                         <h3>Project 6</h3>
-                    </div>
+                    </a>
+                </div>
             </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <footer>
-            <p>&copy; 2025 Daniel Okafor. All Rights Reserved.</p> <!-- Footer content -->
-        </footer>
-    
+    <footer>
+        <p>&copy; 2025 Daniel Okafor. All Rights Reserved.</p> <!-- Footer content -->
+    </footer>
 </body>
 </html>
