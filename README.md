@@ -23,23 +23,30 @@ The website is designed to provide an overview of Daniel's web development exper
 4. **Contact**: Contact information including email, phone number, and LinkedIn profile.
 5. 
 
-# Screenshots 
 
-![Screenshot of Daniel Okafor's Home Page]( https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/homepage.png "Home Page")
+
+
+
+
+# Screenshots 
 ## Home Page -
+![Screenshot of Daniel Okafor's Home Page]( https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/homepage.png "Home Page")
+
+  ------
   
 
 
-
+## About Page -
 ![Screenshot of Daniel Okafor's  Page](https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/About%20Page.png "About Page")
 
-## About Page - 
-
-
-
-![Screenshot of Daniel Okafor's Contact ](https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/contact%20Page.png "Contact Page")
+ 
+ --------
+ 
 
 ## Contact Page -
+![Screenshot of Daniel Okafor's Contact ](https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/contact%20Page.png "Contact Page")
+
+
 
 
 
