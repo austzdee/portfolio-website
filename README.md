@@ -39,6 +39,8 @@ The website is designed to provide an overview of Daniel's web development exper
 ## About Page -
 ![Screenshot of Daniel Okafor's  Page](https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/About%20Page.png "About Page")
 
+
+
  
  --------
  
@@ -47,6 +49,8 @@ The website is designed to provide an overview of Daniel's web development exper
 ![Screenshot of Daniel Okafor's Contact ](https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/contact%20Page.png "Contact Page")
 
 
+
+-------
 
 
 
