@@ -24,25 +24,36 @@ The website is designed to provide an overview of Daniel's web development exper
 
 ## Screenshots
 
-![Screenshot of Daniel Okafor's Portfolio Website](https://github.com/austzdee/portfolio-website/blob/c565d61673d1b5f4acea8fb774b617bb726d45b7/Screenshot%202025-02-22%20220423.png "Daniel Okafor's Portfolio")
+![Screenshot of Daniel Okafor's Portfolio Website]( https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/homepage.png "Daniel Okafor's Portfolio")
 
 ### Screenshot Description
-This screenshot showcases Daniel Okafor's personal portfolio website, demonstrating his web development skills. The website has a clean and professional design, featuring a navigation bar with links to "HOME," "ABOUT," "PROJECTS," and "CONTACT."
+This screenshot showcases Daniel Okafor's personal portfolio home Page, demonstrating his web development skills. The page has a clean and professional design, featuring a navigation bar with links to "HOME," "ABOUT," "PROJECTS," and "CONTACT."
 
 - **Welcome Section**: A welcoming message "Welcome to My Portfolio" accompanied by a brief introduction, "Hi, I'm Daniel Okafor, a passionate Web Developer."
-- **About Me Section**: Daniel describes his background in front-end development, interest in learning new technologies, and his degree in Computer Science.
-- **Skills Section**: Lists skills such as HTML, CSS, JavaScript, React, Node.js, Version Control (Git, GitHub), Responsive Web Design, and UI/UX Design Principles.
-- **Design**: Uses a yellow and beige color scheme with a circular image of a cityscape at the top center.
+- **Design**: Uses a yellow and beige color scheme with a circular image of a Daniel at the top center.
 
-This portfolio website highlights Daniel's professional journey and technical skills effectively.
-
-![Project Thumbnails](https://github.com/austzdee/portfolio-website/blob/656115bc4c1b1877217c5a89f5983b5cd84521be/screenshotprojPage.png "Project Thumbnails")
-
-### Screenshot Description
-This screenshot features a collection of six different project thumbnails, each showcasing a unique 
+  
 
 
-![Screenshot of Daniel Okafor's Portfolio Website](https://github.com/austzdee/portfolio-website/blob/7c182a01c7f1d68298888b703e84bad5e39219f6/Screenshot%20contact.PNG "Daniel Okafor's Portfolio")
+
+![Project Thumbnails](https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/About%20Page.png "Project Thumbnails")
+
+# About Page - 
+
+## 🌟 Overview
+This is a personal portfolio website created to showcase the skills, education, and work of **Daniel Okafor**, a front-end web developer. It features responsive design, an "About Me" section, technical skills highlights, educational background, and sample projects. Built using ReactJS, it emphasizes user-friendly UI/UX and serves as a professional online presence.
+
+---
+
+## 🛠 Technologies Used
+- **Frontend**: ReactJS, JavaScript, CSS, HTML
+- **Design Principles**: Responsive UI/UX
+
+
+
+
+
+![Screenshot of Daniel Okafor's Portfolio Website](https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/contact%20Page.png "Daniel Okafor's Portfolio")
 
 ### Screenshot Description
 This screenshot showcases Daniel Okafor's personal portfolio website, highlighting his web development expertise. Key features include:
@@ -61,8 +72,11 @@ This screenshot showcases Daniel Okafor's personal portfolio website, highlighti
 This portfolio website presents a clean and professional design, emphasizing Daniel's skills and contact information.
 
 
-![Screenshot of Daniel Okafor's Portfolio Website Contact Page](https://github.com/austzdee/portfolio-website/blob/384844b88ba61093516b7d875e9315679b0648c3/Screenshot%20mobile%20device%20version.png "Daniel Okafor's Portfolio Contact Page")
+![Screenshot of Daniel Okafor's Project Page]( https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/Project%20page.png "Daniel Okafor's Portfolio Contact Page")
 
 ### Screenshot Description
-This screenshot displays the mobile-responsive interface of Daniel Okafor's portfolio website's contact page. The interface is designed to be user-friendly and visually appealing on mobile devices.
-This mobile-responsive design ensures that users can easily access and interact with the contact information on Daniel's portfolio website, providing a seamless experience.
+# Portfolio Projects - Daniel Okafor
+
+## 🌟 Overview
+Daniel Okafor’s portfolio showcases diverse web development projects, including responsive designs, creative illustrations, and modern UI/UX practices. Built using ReactJS and other technologies, these projects highlight his skills, education, and innovative solutions, offering a professional online presence for collaborations and future opportunities.
+
