@@ -1,59 +1,72 @@
-# Personal Portfolio
+# 🚀 Personal Portfolio — Daniel Okafor
 
-## Description
-This is a personal portfolio website for Daniel Okafor, showcasing skills, projects, and contact information.
-The website is designed to provide an overview of Daniel's web development expertise and background.
+## 📖 Overview
 
-## Features
-- **Responsive Design**: The website is responsive and works on various devices, from desktop to mobile.
-- **Interactive Navigation**: A hamburger menu for mobile devices to ensure easy navigation.
-- **Gallery**: A showcase of projects with links to detailed information.
-- **Contact Information**: Easy access to contact details and social media profiles.
+This is my personal developer portfolio showcasing my projects, technical skills, and contact information.
 
-## Technologies Used
-- **HTML**: For the structure of the website.
-- **CSS**: For styling and layout.
-- **JavaScript**: For interactive elements (if any).
-- **Version Control**: Managed using Git and GitHub.
+The site highlights my ability to build responsive user interfaces, structure clean front-end code, and deploy production-ready web experiences.
 
-## Sections
-1. **Home**: Introduction and welcome message with a profile image.
-2. **About**: Details about Daniel's background, skills, and education.
-3. **Projects**: A gallery of projects with images and links to more information.
-4. **Contact**: Contact information including email, phone number, and LinkedIn profile.
-5. 
+---
 
+## ✨ Key Features
 
+- **Responsive Design** — Optimised for desktop, tablet, and mobile devices  
+- **Accessible Navigation** — Semantic HTML and keyboard-friendly structure  
+- **Project Gallery** — Visual showcase with live demos and source code links  
+- **Performance Focused** — Lightweight and fast-loading pages  
+- **GitHub Pages Deployment** — Live production hosting  
 
+---
 
+## 🛠️ Technologies Used
 
+- **HTML5** — Semantic page structure  
+- **CSS3** — Modern responsive styling  
+- **JavaScript** — Interactive behaviour  
+- **Git & GitHub** — Version control and deployment  
 
-# Screenshots 
-## Home Page -
-![Screenshot of Daniel Okafor's Home Page]( https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/homepage.png "Home Page")
+---
 
-  ------
-  
+## 🧩 Site Sections
 
+- **Home** — Developer introduction and value proposition  
+- **About** — Skills, background, and education  
+- **Projects** — Featured development work  
+- **Contact** — Professional contact details  
 
-## About Page -
-![Screenshot of Daniel Okafor's  Page](https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/About%20Page.png "About Page")
+---
 
+## 📸 Screenshots
 
+### 🏠 Home Page
+![Home Page](./images/homepage.png)
 
- 
- --------
- 
+---
 
-## Contact Page -
-![Screenshot of Daniel Okafor's Contact ](https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/contact%20Page.png "Contact Page")
+### 👤 About Page
+![About Page](./images/About%20Page.png)
 
+---
 
+### 📬 Contact Page
+![Contact Page](./images/contact%20Page.png)
 
--------
+---
 
+### 💼 Projects Page
+![Projects Page](./images/Project%20page.png)
 
+---
 
-![Screenshot of Daniel Okafor's Project Page]( https://github.com/austzdee/portfolio-website/blob/450526fcaa79efef434972e9becee453a67cac16/Project%20page.png " Project Page")
+## 🚀 Live Site
 
-### Project Page -
+👉 https://austzdee.github.io/portfolio-website/
+
+---
+
+## 🤝 Connect With Me
+
+- 💼 LinkedIn: https://linkedin.com/in/daniel-okafor  
+- 💻 GitHub: https://github.com/austzdee  
+- 📧 Email: austzdee@yahoo.com  
+
