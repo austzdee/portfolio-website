@@ -1,85 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Daniel Okafor's personal portfolio showcasing web development projects.">
-    <title>Personal Portfolio - Projects</title>
-    <link rel="stylesheet" href="./css/styles.css"> <!-- Link to external CSS file -->
-    <link rel="icon" href="./images/favicon.ico" type="image/x-icon"> <!-- Favicon -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Projects by Daniel Okafor — portfolio, full-stack .NET apps, and JavaScript/React work."
+  />
+
+  <title>Projects • Daniel Okafor</title>
+
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
 </head>
+
 <body>
-    <header>
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-        <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation">&#9776;</label>
-        <nav aria-label="Main Navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- ✅ Skip link (accessibility best practice) -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <!-- Home Section -->
-    <section id="home" class="section">
-        <div class="container">
-            <div class="home-content">
-                <a href="#"><img src="./images/img1q1.jpg" alt="Daniel Okafor Profile Picture" class="profile-img"></a>
-                <div class="intro">
-                    <h1>Welcome to My Project Section</h1>
-                </div>
-            </div>
+  <!-- ✅ Unified Navigation (matches index/about) -->
+  <nav class="site-nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="index.html">Daniel Okafor</a>
+
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html" aria-current="page">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="assets/docs/Daniel_Okafor_CV.pdf" download>CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ✅ Hero -->
+  <header class="hero" aria-labelledby="projects-title">
+    <div class="container hero__content">
+      <p class="hero__kicker">Selected Work</p>
+      <h1 id="projects-title" class="hero__title">Projects</h1>
+      <p class="hero__summary">
+        A mix of front-end builds, full-stack .NET applications, and C# projects that demonstrate clean code,
+        maintainable structure, and real-world problem solving.
+      </p>
+
+      <div class="hero__actions" role="group" aria-label="Project actions">
+        <a class="btn btn--primary" href="#projects">Browse Projects</a>
+        <a class="btn btn--secondary" href="https://github.com/austzdee" target="_blank" rel="noopener">
+          GitHub Profile
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="projects" class="section" aria-label="Portfolio projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="gallery">
+          <!-- ⭐ Portfolio Website -->
+          <article class="gallery-item">
+            <a href="https://austzdee.github.io/portfolio-website/" target="_blank" rel="noopener">
+              <img src="./images/homepage.PNG" alt="Screenshot of Daniel Okafor portfolio website" />
+              <h3>Portfolio Website</h3>
+            </a>
+            <p>
+              Responsive personal portfolio built with semantic HTML and modern CSS, deployed on GitHub Pages.
+            </p>
+            <p>
+              <a class="btn btn--secondary" href="https://github.com/austzdee/portfolio-website" target="_blank" rel="noopener">
+                View Code
+              </a>
+            </p>
+          </article>
+
+          <!-- ⭐ Danito Café -->
+          <article class="gallery-item">
+            <a href="https://austzdee.github.io/dannitoCafe/index.html" target="_blank" rel="noopener">
+              <img src="./images/Screenshot%202025-02-25%20163649.png" alt="Screenshot of Danito Café website project" />
+              <h3>Danito Café Website</h3>
+            </a>
+            <p>
+              Multi-page café site with responsive layout, accessible navigation, and clean UI styling.
+            </p>
+            <p>
+              <a class="btn btn--secondary" href="https://github.com/austzdee/dannitoCafe" target="_blank" rel="noopener">
+                View Code
+              </a>
+            </p>
+          </article>
+
+          <!-- ⭐ NewsletterAppCore -->
+          <article class="gallery-item">
+            <a href="https://github.com/austzdee/NewsletterAppCore" target="_blank" rel="noopener">
+              <img src="./images/6.jpg" alt="Newsletter ASP.NET Core MVC application project" />
+              <h3>Newsletter App (.NET Core)</h3>
+            </a>
+            <p>
+              ASP.NET Core MVC app using EF Core + Identity for secure signup and user management.
+            </p>
+            <p>
+              <a class="btn btn--secondary" href="https://github.com/austzdee/NewsletterAppCore" target="_blank" rel="noopener">
+                View Code
+              </a>
+            </p>
+          </article>
+
+          <!-- ⭐ CarInsurance -->
+          <article class="gallery-item">
+            <a href="https://github.com/austzdee/CarInsurance" target="_blank" rel="noopener">
+              <img src="./images/5.jpg" alt="Car Insurance ASP.NET MVC project" />
+              <h3>Car Insurance MVC App</h3>
+            </a>
+            <p>
+              ASP.NET MVC application using Entity Framework (EDMX) to model insurance data and CRUD workflows.
+            </p>
+            <p>
+              <a class="btn btn--secondary" href="https://github.com/austzdee/CarInsurance" target="_blank" rel="noopener">
+                View Code
+              </a>
+            </p>
+          </article>
+
+          <!-- ⭐ Twenty-One -->
+          <article class="gallery-item">
+            <a href="https://github.com/austzdee/Twenty-One" target="_blank" rel="noopener">
+              <img src="./images/4.jpg" alt="Twenty-One C# console card game project" />
+              <h3>Twenty-One (C# Console Game)</h3>
+            </a>
+            <p>
+              Blackjack-style console game demonstrating OOP, clean C# structure, and game logic.
+            </p>
+            <p>
+              <a class="btn btn--secondary" href="https://github.com/austzdee/Twenty-One" target="_blank" rel="noopener">
+                View Code
+              </a>
+            </p>
+          </article>
+
+          <!-- Optional placeholder (remove if you don’t want it) -->
+          <article class="gallery-item">
+            <a href="https://github.com/austzdee" target="_blank" rel="noopener">
+              <img src="./images/3.webp" alt="GitHub profile preview" />
+              <h3>More Projects on GitHub</h3>
+            </a>
+            <p>
+              Explore additional repositories, experiments, and learning projects on my GitHub profile.
+            </p>
+            <p>
+              <a class="btn btn--secondary" href="https://github.com/austzdee" target="_blank" rel="noopener">
+                Open GitHub
+              </a>
+            </p>
+          </article>
         </div>
+      </div>
     </section>
+  </main>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section" aria-label="Portfolio Projects">
-        <div class="container">
-            <div class="gallery">
-                <div class="gallery-item">
-                    <a href="https://austzdee.github.io/portfolio-website/#projects" target="_blank">
-                        <img src="images/homepage.PNG" alt="Portfolio Project">
-                        <h3>Profile Portfolio-Website</h3>
-                    </a>
-                </div>
-                <div class="gallery-item">
-                    <a href="https://austzdee.github.io/dannitoCafe/index.html" target="_blank">
-                        <img src="images/Screenshot 2025-02-25 163649.png" alt="Coffee Cafe web Project">
-                        <h3>Coffee Cafe Web Project</h3>
-                    </a>
-                </div>
-                <div class="gallery-item">
-                    <a href="https://github.com/austzdee" target="_blank">
-                        <img src="images/3.webp" alt="Github">
-                        <h3>Project </h3>
-                    </a>
-                </div>
-                <div class="gallery-item">
-                    <a href="#" target="_blank">
-                        <img src="images/4.jpg" alt="JavaScript App">
-                        <h3>Jamming coming soon...</h3>
-                    </a>
-                </div>
-                <div class="gallery-item">
-                    <a href="#" target="_blank">
-                        <img src="images/5.jpg" alt="Git Version Control Project">
-                        <h3>Coming soon... </h3>
-                    </a>
-                </div>
-                <div class="gallery-item">
-                    <a href="#" target="_blank">
-                        <img src="images/6.jpg" alt="React Development Project">
-                        <h3>Coming soon...</h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Daniel Okafor. All Rights Reserved.</p> <!-- Footer content -->
-    </footer>
+  <footer class="site-footer">
+    <p>&copy; 2025 Daniel Okafor. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>

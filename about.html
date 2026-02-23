@@ -1,95 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Portfolio of Daniel Okafor, showcasing web development skills, projects, and experience.">
-  <title>Personal Portfolio - About</title>
-  <link rel="stylesheet" href="./css/styles.css"> <!-- Link to external CSS file -->
-  <link rel="icon" href="./images/favicon.ico" type="image/x-icon"> <!-- Favicon -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Portfolio of Daniel Okafor, showcasing web development skills, projects, and experience."
+  />
+
+  <title>About • Daniel Okafor</title>
+
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
-  <header>
-    <input type="checkbox" id="menu-toggle" class="menu-toggle">
-    <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation">&#9776;</label>
-    <nav aria-label="Main Navigation">
-      <ul>
+  <!-- ✅ Skip link (accessibility best practice) -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ✅ Unified Navigation -->
+  <nav class="site-nav">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="index.html">Daniel Okafor</a>
+
+      <ul class="nav__links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a href="project.html">Projects</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="assets/docs/Daniel_Okafor_CV.pdf" download>CV</a></li>
       </ul>
-    </nav>
+    </div>
+  </nav>
+
+  <!-- ✅ Consistent page header -->
+  <header class="page-hero" aria-labelledby="page-title">
+    <div class="container">
+      <h1 id="page-title" class="page-hero__title">About</h1>
+      <p class="page-hero__subtitle">
+        Full-stack developer focused on clean UI, secure APIs, and maintainable systems.
+      </p>
+    </div>
   </header>
 
-  <main>
-    <!-- About Section -->
+  <!-- ✅ Main content target for skip link -->
+  <main id="main-content">
     <section id="about" class="section">
       <div class="container">
-        <h2>About Me</h2>
-        <p>
-            I am a web developer specializing in front-end development, with a Professional Diploma in Computer Science and a strong track record in both personal and professional web projects. I am passionate about staying current with emerging technologies and continuously enhancing my skills.
+        <h2 class="section-title">About Me</h2>
+
+        <p class="section-text">
+          I am a full-stack web developer with strong experience in both front-end and back-end development.
+          I build responsive interfaces, secure APIs, and maintainable systems using modern technologies like
+          React, ASP.NET Core, and SQL Server. I am passionate about continuous learning and writing clean,
+          scalable code.
         </p>
-        <h3>Skills:</h3>
 
-          <div class="cards-container">
-            <div class="card">
-              <h4>HTML</h4>
-            </div>
-            <div class="card">
-              <h4>CSS</h4>
-            </div>
-            <div class="card">
-              <h4>JavaScript</h4>
-            </div>
-            <div class="card">
-              <h4>ReactJS</h4>
-            </div>
-            <div class="card">
-              <h4>Node.JS</h4>
-            </div>
-            <div class="card">
-              <h4>Git</h4>
-            </div>
-            <div class="card">
-              <h4>GitHub</h4>
-            </div>
-            <div class="card">
-              <h4>UI/UX Design</h4>
-            </div>
-          </div>
+        <!-- Skills -->
+        <h3 class="subheading">Skills</h3>
 
-        <h3>Education:</h3>
+        <div class="cards-container">
+          <!-- Frontend -->
+          <div class="card"><h4>HTML</h4></div>
+          <div class="card"><h4>CSS</h4></div>
+          <div class="card"><h4>JavaScript</h4></div>
+          <div class="card"><h4>React</h4></div>
+          <div class="card"><h4>UI/UX Design</h4></div>
 
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="content">
-              <h3>Professionl Certification</h3>
-              <h4>Learning People, 2025</h4>
-              <p>Studied Front-End Plus and gained a strong foundation in  web development.</p>
-            </div>
-          </div>
+          <!-- Backend -->
+          <div class="card"><h4>C#</h4></div>
+          <div class="card"><h4>ASP.NET Core MVC</h4></div>
+          <div class="card"><h4>ASP.NET Core API</h4></div>
+          <div class="card"><h4>Entity Framework Core</h4></div>
+          <div class="card"><h4>Identity (Auth & Roles)</h4></div>
+          <div class="card"><h4>LINQ</h4></div>
 
-          <div class="timeline-item">
-            <div class="content">
-              <h3>Bachelor of Science in Software Development</h3>
-              <h4>NIIT, 2013</h4>
-              <p>Studied Software Developlment, gained a strong foundation in programming.</p>
-            </div>
-          </div>
+          <!-- Database -->
+          <div class="card"><h4>SQL Server</h4></div>
+          <div class="card"><h4>Migrations</h4></div>
 
-         
+          <!-- Tools -->
+          <div class="card"><h4>Git</h4></div>
+          <div class="card"><h4>GitHub</h4></div>
+          <div class="card"><h4>Postman</h4></div>
+
+          <!-- Architecture -->
+          <div class="card"><h4>Clean Architecture</h4></div>
+          <div class="card"><h4>SOLID Principles</h4></div>
+          <div class="card"><h4>Dependency Injection</h4></div>
         </div>
+
+        <!-- Education -->
+        <h3 class="subheading">Education</h3>
+
+<!-- Education -->
+<h3 class="subheading">Education & Professional Development</h3>
+
+<div class="timeline">
+
+  <!-- Pitman -->
+  <div class="timeline-item">
+    <div class="content">
+      <h3>Advanced Diploma in Software (C#, .NET, SQL, DevOps)</h3>
+      <h4>Pitman Training, Peterborough • Apr 2025 – Feb 2026 (Ongoing)</h4>
+      <p>
+        Key modules include .NET Framework, C# object-oriented programming,
+        database design and SQL, DevOps fundamentals, and modern software development practices.
+      </p>
+    </div>
+  </div>
+
+  <!-- Learning People -->
+  <div class="timeline-item">
+    <div class="content">
+      <h3>Front-End Plus / Web Development</h3>
+      <h4>Learning People Ltd, UK • Sept 2023 – Mar 2025</h4>
+      <p>
+        Covered React.js, modern JavaScript (ES6+), TypeScript, Git version control,
+        Agile methodologies, and responsive web design.
+      </p>
+    </div>
+  </div>
+
+  <!-- NIIT -->
+  <div class="timeline-item">
+    <div class="content">
+      <h3>Professional Diploma in Information Technology (Software Engineering)</h3>
+      <h4>NIIT • Jun 2016 – Nov 2021</h4>
+      <p>
+        Focused on Java programming, core software engineering principles,
+        and foundational application development.
+      </p>
+    </div>
+  </div>
+
+  <!-- Theology -->
+  <div class="timeline-item">
+    <div class="content">
+      <h3>Bachelor of Theology (B.Th.), Biblical Studies</h3>
+      <h4>Life Theological Seminary, Lagos, Nigeria • Jun 2017 – Nov 2021</h4>
+      <p>
+        Developed strong research, analytical thinking, and structured problem-solving
+        skills that support effective software development work.
+      </p>
+    </div>
+  </div>
+
+</div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Daniel Okafor. All Rights Reserved.</p> <!-- Footer content -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Daniel Okafor. All Rights Reserved.</p>
   </footer>
 </body>
-
 </html>
