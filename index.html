@@ -4,44 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of Daniel Okafor, showcasing web development skills, projects, and experience.">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css"> <!-- Link to external CSS file -->
-    <link rel="icon" href="./images/favicon.ico" type="image/x-icon"> <!-- Favicon -->
+    <title>Daniel Okafor | Junior Full-Stack Developer</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Daniel Okafor | Junior Full-Stack Developer">
+    <meta property="og:description" content="Portfolio of Daniel Okafor — React, .NET, SQL Server projects and experience.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://austzdee.github.io/portfolio-website/">
+    <meta property="og:image" content="https://austzdee.github.io/portfolio-website/images/og-image.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Daniel Okafor | Junior Full-Stack Developer">
+    <meta name="twitter:description" content="React + .NET projects, experience, and contact.">
+    <meta name="twitter:image" content="https://austzdee.github.io/portfolio-website/images/og-image.png">
 </head>
 <body>
-    <header>
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-        <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation">&#9776;</label>
-        <nav aria-label="Main Navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+
+    <!-- ✅ Skip link (accessibility best practice) -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- ✅ Navigation FIRST -->
+    <nav class="site-nav">
+        <div class="container nav__inner">
+            <a class="nav__logo" href="index.html">Daniel Okafor</a>
+
+            <ul class="nav__links">
+                <li><a href="index.html" aria-current="page">Home</a></li>
                 <li><a href="project.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="assets/docs/Daniel_Okafor_CV.pdf" download>CV</a></li>
             </ul>
-        </nav>
+        </div>
+    </nav>
+
+    <!-- ✅ HERO -->
+    <header class="hero" aria-labelledby="hero-title">
+        <div class="container hero__content">
+            <p class="hero__kicker">Junior Full-Stack Developer • Open to roles</p>
+
+            <h1 id="hero-title" class="hero__title">
+                React + .NET Developer
+            </h1>
+
+            <p class="hero__stack">
+                React · JavaScript · C# · ASP.NET Core · EF Core · SQL Server
+            </p>
+
+            <p class="hero__summary">
+                I build responsive front-ends and secure back-end APIs, delivering clean UI, reliable data flows, and maintainable code.
+            </p>
+
+            <!-- ✅ Hero CTAs restored -->
+            <div class="hero__actions" role="group" aria-label="Primary actions">
+                <a class="btn btn--primary" href="project.html">View Projects</a>
+                <a class="btn btn--secondary" href="assets/docs/Daniel_Okafor_CV.pdf" download>
+                    Download CV (PDF)
+                </a>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <!-- Home Section -->
-        <section id="home" class="section">
-            <div class="container">
-                <div class="home-content">
-                    <a href="#"><img src="./images/img1q1.jpg" alt="Daniel Okafor smiling with a scenic background" class="profile-img"></a> <!-- Profile image -->
-                    <div class="intro">
-                        <h1>Welcome to My Portfolio</h1>
-                        <h4>Hi, I'm Daniel Okafor, a passionate Web Developer.</h4>
+    <!-- ✅ MAIN CONTENT -->
+    <main id="main-content">
 
-                        <p>I specialize in creating responsive and user-friendly web applications using modern technologies.</p>
-                        <p>With a strong foundation in front-end development, I turn ideas into engaging digital experiences.</p>
-                    </div>
-                </div>
+        <!-- ✅ Single CV section (correct location) -->
+        <section class="cv-section section">
+            <div class="container">
+                <h2>Curriculum Vitae</h2>
+                <p>You can download my CV below.</p>
+                <a class="btn btn--primary" href="assets/docs/Daniel_Okafor_CV.pdf" download>
+                    Download CV
+                </a>
             </div>
         </section>
+
     </main>
 
     <footer>
-        <p>&copy; 2025 Daniel Okafor. All Rights Reserved.</p> <!-- Footer content -->
+        <p>&copy; 2025 Daniel Okafor. All Rights Reserved.</p>
     </footer>
+
 </body>
 </html>
