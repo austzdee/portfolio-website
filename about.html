@@ -15,11 +15,11 @@
 </head>
 
 <body>
-  <!-- ✅ Skip link (accessibility best practice) -->
+  <!-- Skip link -->
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- ✅ Unified Navigation -->
-  <nav class="site-nav">
+  <!-- Navigation -->
+  <nav class="site-nav" aria-label="Primary">
     <div class="container nav__inner">
       <a class="nav__logo" href="index.html">Daniel Okafor</a>
 
@@ -33,7 +33,7 @@
     </div>
   </nav>
 
-  <!-- ✅ Consistent page header -->
+  <!-- Page Header -->
   <header class="page-hero" aria-labelledby="page-title">
     <div class="container">
       <h1 id="page-title" class="page-hero__title">About</h1>
@@ -43,10 +43,12 @@
     </div>
   </header>
 
-  <!-- ✅ Main content target for skip link -->
+  <!-- Main Content -->
   <main id="main-content">
     <section id="about" class="section">
       <div class="container">
+
+        <!-- About Me -->
         <h2 class="section-title">About Me</h2>
 
         <p class="section-text">
@@ -59,7 +61,8 @@
         <!-- Skills -->
         <h3 class="subheading">Skills</h3>
 
-        <div class="cards-container">
+        <div class="cards-container" aria-label="Skills list">
+
           <!-- Frontend -->
           <div class="card"><h4>HTML</h4></div>
           <div class="card"><h4>CSS</h4></div>
@@ -91,62 +94,59 @@
         </div>
 
         <!-- Education -->
-        <h3 class="subheading">Education</h3>
+        <h3 class="subheading">Education & Professional Development</h3>
 
-<!-- Education -->
-<h3 class="subheading">Education & Professional Development</h3>
+        <div class="timeline">
 
-<div class="timeline">
+          <!-- Pitman -->
+          <div class="timeline-item">
+            <div class="content">
+              <h3>Advanced Diploma in Software (C#, .NET, SQL, DevOps)</h3>
+              <h4>Pitman Training, Peterborough • Apr 2025 – Feb 2026 (Ongoing)</h4>
+              <p>
+                Key modules include .NET Framework, C# object-oriented programming,
+                database design and SQL, DevOps fundamentals, and modern software development practices.
+              </p>
+            </div>
+          </div>
 
-  <!-- Pitman -->
-  <div class="timeline-item">
-    <div class="content">
-      <h3>Advanced Diploma in Software (C#, .NET, SQL, DevOps)</h3>
-      <h4>Pitman Training, Peterborough • Apr 2025 – Feb 2026 (Ongoing)</h4>
-      <p>
-        Key modules include .NET Framework, C# object-oriented programming,
-        database design and SQL, DevOps fundamentals, and modern software development practices.
-      </p>
-    </div>
-  </div>
+          <!-- Learning People -->
+          <div class="timeline-item">
+            <div class="content">
+              <h3>Front-End Plus / Web Development</h3>
+              <h4>Learning People Ltd, UK • Sept 2023 – Mar 2025</h4>
+              <p>
+                Covered React.js, modern JavaScript (ES6+), TypeScript, Git version control,
+                Agile methodologies, and responsive web design.
+              </p>
+            </div>
+          </div>
 
-  <!-- Learning People -->
-  <div class="timeline-item">
-    <div class="content">
-      <h3>Front-End Plus / Web Development</h3>
-      <h4>Learning People Ltd, UK • Sept 2023 – Mar 2025</h4>
-      <p>
-        Covered React.js, modern JavaScript (ES6+), TypeScript, Git version control,
-        Agile methodologies, and responsive web design.
-      </p>
-    </div>
-  </div>
+          <!-- NIIT -->
+          <div class="timeline-item">
+            <div class="content">
+              <h3>Professional Diploma in Information Technology (Software Engineering)</h3>
+              <h4>NIIT • Jun 2016 – Nov 2021</h4>
+              <p>
+                Focused on Java programming, core software engineering principles,
+                and foundational application development.
+              </p>
+            </div>
+          </div>
 
-  <!-- NIIT -->
-  <div class="timeline-item">
-    <div class="content">
-      <h3>Professional Diploma in Information Technology (Software Engineering)</h3>
-      <h4>NIIT • Jun 2016 – Nov 2021</h4>
-      <p>
-        Focused on Java programming, core software engineering principles,
-        and foundational application development.
-      </p>
-    </div>
-  </div>
+          <!-- Theology -->
+          <div class="timeline-item">
+            <div class="content">
+              <h3>Bachelor of Theology (B.Th.), Biblical Studies</h3>
+              <h4>Life Theological Seminary, Lagos, Nigeria • Jun 2017 – Nov 2021</h4>
+              <p>
+                Developed strong research, analytical thinking, and structured problem-solving
+                skills that support effective software development work.
+              </p>
+            </div>
+          </div>
 
-  <!-- Theology -->
-  <div class="timeline-item">
-    <div class="content">
-      <h3>Bachelor of Theology (B.Th.), Biblical Studies</h3>
-      <h4>Life Theological Seminary, Lagos, Nigeria • Jun 2017 – Nov 2021</h4>
-      <p>
-        Developed strong research, analytical thinking, and structured problem-solving
-        skills that support effective software development work.
-      </p>
-    </div>
-  </div>
-
-</div>
+        </div>
       </div>
     </section>
   </main>

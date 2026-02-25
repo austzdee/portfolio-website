@@ -7,7 +7,6 @@
     name="description"
     content="Projects by Daniel Okafor — portfolio, full-stack .NET apps, and JavaScript/React work."
   />
-
   <title>Projects • Daniel Okafor</title>
 
   <link rel="stylesheet" href="./css/styles.css" />
@@ -15,10 +14,10 @@
 </head>
 
 <body>
-  <!-- ✅ Skip link (accessibility best practice) -->
+  <!-- Skip link -->
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- ✅ Unified Navigation (matches index/about) -->
+  <!-- Unified Navigation -->
   <nav class="site-nav" aria-label="Primary">
     <div class="container nav__inner">
       <a class="nav__logo" href="index.html">Daniel Okafor</a>
@@ -33,7 +32,7 @@
     </div>
   </nav>
 
-  <!-- ✅ Hero -->
+  <!-- Hero -->
   <header class="hero" aria-labelledby="projects-title">
     <div class="container hero__content">
       <p class="hero__kicker">Selected Work</p>
@@ -57,101 +56,159 @@
       <div class="container">
         <h2 class="section-title">Featured Projects</h2>
 
-        <div class="gallery">
-          <!-- ⭐ Portfolio Website -->
-          <article class="gallery-item">
-            <a href="https://austzdee.github.io/portfolio-website/" target="_blank" rel="noopener">
-              <img src="./images/homepage.PNG" alt="Screenshot of Daniel Okafor portfolio website" />
-              <h3>Portfolio Website</h3>
+        <div class="projects-grid">
+          <!-- Portfolio -->
+          <article class="project-card">
+            <a class="project-card__link" href="https://austzdee.github.io/portfolio-website/" target="_blank" rel="noopener">
+              <img class="project-card__img" src="./images/homepage.PNG" alt="Screenshot of Daniel Okafor portfolio website" />
+              <h3 class="project-card__title">Portfolio Website</h3>
             </a>
-            <p>
+
+            <p class="project-card__desc">
               Responsive personal portfolio built with semantic HTML and modern CSS, deployed on GitHub Pages.
             </p>
-            <p>
+
+            <ul class="tags" aria-label="Technologies used">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Accessibility</li>
+              <li>GitHub Pages</li>
+            </ul>
+
+            <div class="card__actions">
+              <a class="btn btn--primary" href="https://austzdee.github.io/portfolio-website/" target="_blank" rel="noopener">
+                Live Demo
+              </a>
               <a class="btn btn--secondary" href="https://github.com/austzdee/portfolio-website" target="_blank" rel="noopener">
                 View Code
               </a>
-            </p>
+            </div>
           </article>
 
-          <!-- ⭐ Danito Café -->
-          <article class="gallery-item">
-            <a href="https://austzdee.github.io/dannitoCafe/index.html" target="_blank" rel="noopener">
-              <img src="./images/Screenshot%202025-02-25%20163649.png" alt="Screenshot of Danito Café website project" />
-              <h3>Danito Café Website</h3>
+          <!-- Danito Café -->
+          <article class="project-card">
+            <a class="project-card__link" href="https://austzdee.github.io/dannitoCafe/index.html" target="_blank" rel="noopener">
+              <img class="project-card__img" src="./images/Screenshot%202025-02-25%20163649.png" alt="Screenshot of Danito Café website project" />
+              <h3 class="project-card__title">Danito Café Website</h3>
             </a>
-            <p>
+
+            <p class="project-card__desc">
               Multi-page café site with responsive layout, accessible navigation, and clean UI styling.
             </p>
-            <p>
+
+            <ul class="tags" aria-label="Technologies used">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Responsive UI</li>
+            </ul>
+
+            <div class="card__actions">
+              <a class="btn btn--primary" href="https://austzdee.github.io/dannitoCafe/index.html" target="_blank" rel="noopener">
+                Live Demo
+              </a>
               <a class="btn btn--secondary" href="https://github.com/austzdee/dannitoCafe" target="_blank" rel="noopener">
                 View Code
               </a>
-            </p>
+            </div>
           </article>
 
-          <!-- ⭐ NewsletterAppCore -->
-          <article class="gallery-item">
-            <a href="https://github.com/austzdee/NewsletterAppCore" target="_blank" rel="noopener">
-              <img src="./images/6.jpg" alt="Newsletter ASP.NET Core MVC application project" />
-              <h3>Newsletter App (.NET Core)</h3>
+          <!-- NewsletterAppCore -->
+          <article class="project-card">
+            <a class="project-card__link" href="https://github.com/austzdee/NewsletterAppCore" target="_blank" rel="noopener">
+              <img class="project-card__img" src="./images/6.jpg" alt="Newsletter ASP.NET Core MVC application project" />
+              <h3 class="project-card__title">Newsletter App (.NET Core)</h3>
             </a>
-            <p>
+
+            <p class="project-card__desc">
               ASP.NET Core MVC app using EF Core + Identity for secure signup and user management.
             </p>
-            <p>
+
+            <ul class="tags" aria-label="Technologies used">
+              <li>C#</li>
+              <li>ASP.NET Core MVC</li>
+              <li>EF Core</li>
+              <li>Identity</li>
+              <li>SQL Server</li>
+            </ul>
+
+            <div class="card__actions">
               <a class="btn btn--secondary" href="https://github.com/austzdee/NewsletterAppCore" target="_blank" rel="noopener">
                 View Code
               </a>
-            </p>
+            </div>
           </article>
 
-          <!-- ⭐ CarInsurance -->
-          <article class="gallery-item">
-            <a href="https://github.com/austzdee/CarInsurance" target="_blank" rel="noopener">
-              <img src="./images/5.jpg" alt="Car Insurance ASP.NET MVC project" />
-              <h3>Car Insurance MVC App</h3>
+          <!-- CarInsurance -->
+          <article class="project-card">
+            <a class="project-card__link" href="https://github.com/austzdee/CarInsurance" target="_blank" rel="noopener">
+              <img class="project-card__img" src="./images/5.jpg" alt="Car Insurance ASP.NET MVC project" />
+              <h3 class="project-card__title">Car Insurance MVC App</h3>
             </a>
-            <p>
+
+            <p class="project-card__desc">
               ASP.NET MVC application using Entity Framework (EDMX) to model insurance data and CRUD workflows.
             </p>
-            <p>
+
+            <ul class="tags" aria-label="Technologies used">
+              <li>C#</li>
+              <li>ASP.NET MVC</li>
+              <li>Entity Framework (EDMX)</li>
+              <li>SQL Server</li>
+            </ul>
+
+            <div class="card__actions">
               <a class="btn btn--secondary" href="https://github.com/austzdee/CarInsurance" target="_blank" rel="noopener">
                 View Code
               </a>
-            </p>
+            </div>
           </article>
 
-          <!-- ⭐ Twenty-One -->
-          <article class="gallery-item">
-            <a href="https://github.com/austzdee/Twenty-One" target="_blank" rel="noopener">
-              <img src="./images/4.jpg" alt="Twenty-One C# console card game project" />
-              <h3>Twenty-One (C# Console Game)</h3>
+          <!-- Twenty-One -->
+          <article class="project-card">
+            <a class="project-card__link" href="https://github.com/austzdee/Twenty-One" target="_blank" rel="noopener">
+              <img class="project-card__img" src="./images/4.jpg" alt="Twenty-One C# console card game project" />
+              <h3 class="project-card__title">Twenty-One (C# Console Game)</h3>
             </a>
-            <p>
+
+            <p class="project-card__desc">
               Blackjack-style console game demonstrating OOP, clean C# structure, and game logic.
             </p>
-            <p>
+
+            <ul class="tags" aria-label="Technologies used">
+              <li>C#</li>
+              <li>OOP</li>
+              <li>Console App</li>
+            </ul>
+
+            <div class="card__actions">
               <a class="btn btn--secondary" href="https://github.com/austzdee/Twenty-One" target="_blank" rel="noopener">
                 View Code
               </a>
-            </p>
+            </div>
           </article>
 
-          <!-- Optional placeholder (remove if you don’t want it) -->
-          <article class="gallery-item">
-            <a href="https://github.com/austzdee" target="_blank" rel="noopener">
-              <img src="./images/3.webp" alt="GitHub profile preview" />
-              <h3>More Projects on GitHub</h3>
+          <!-- More on GitHub -->
+          <article class="project-card">
+            <a class="project-card__link" href="https://github.com/austzdee" target="_blank" rel="noopener">
+              <img class="project-card__img" src="./images/3.webp" alt="GitHub profile preview" />
+              <h3 class="project-card__title">More Projects on GitHub</h3>
             </a>
-            <p>
+
+            <p class="project-card__desc">
               Explore additional repositories, experiments, and learning projects on my GitHub profile.
             </p>
-            <p>
-              <a class="btn btn--secondary" href="https://github.com/austzdee" target="_blank" rel="noopener">
+
+            <ul class="tags" aria-label="Technologies used">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Projects</li>
+            </ul>
+
+            <div class="card__actions">
+              <a class="btn btn--primary" href="https://github.com/austzdee" target="_blank" rel="noopener">
                 Open GitHub
               </a>
-            </p>
+            </div>
           </article>
         </div>
       </div>
