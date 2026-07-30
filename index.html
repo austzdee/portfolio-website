@@ -10,10 +10,48 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://austzdee.github.io/portfolio-website/" />
     <title>Daniel Okafor | Software Developer</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Daniel Okafor, home">DO<span>.</span></a>
+        <nav aria-label="Primary navigation">
+          <a href="#work">Work</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+        </nav>
+      </header>
+      <main id="main-content">
+        <section class="hero" id="top">
+          <div class="hero-copy">
+            <p class="eyebrow">Software developer · Manchester, UK</p>
+            <h1>I build dependable full-stack software for real operational workflows.</h1>
+            <p class="hero-summary">I develop accessible React and TypeScript interfaces backed by secure ASP.NET Core APIs, relational data and automated testing.</p>
+            <div class="actions">
+              <a class="button primary" href="#work">Explore my work</a>
+              <a class="button secondary" href="./assets/docs/Dannie.pdf" download>Download CV</a>
+              <a class="button secondary" href="mailto:austzdee@gmail.com">Contact me</a>
+            </div>
+          </div>
+          <aside class="hero-panel" aria-label="Current engineering focus">
+            <span>Current focus</span>
+            <strong>React + TypeScript</strong><strong>C# + ASP.NET Core</strong><strong>SQL + Azure</strong>
+            <p>From interface design and API architecture to validation, testing and cloud deployment.</p>
+          </aside>
+        </section>
+        <section class="section" id="work">
+          <div class="section-heading"><p class="eyebrow">Selected work</p><h2>Projects that show progression from front-end foundations to deployed full-stack systems.</h2></div>
+          <div class="project-list">
+            <article class="project-card"><div class="project-number">01</div><div class="project-content"><p class="project-label">Featured full-stack platform</p><h3>StockSync</h3><p>An inventory management platform for products, warehouses, stock operations, reporting and audit visibility. Built around secure APIs, validated workflows and production-focused engineering.</p><ul><li>Role-based JWT authentication and refresh-token security</li><li>Stock transfers, reservations, low-stock reporting and audit logs</li><li>React accessibility improvements and reusable design-system components</li><li>ASP.NET Core integration and validation test coverage</li></ul><div class="tags"><span>React</span><span>TypeScript</span><span>ASP.NET Core</span><span>SQL Server</span><span>Azure</span></div><div class="project-links"><a href="https://github.com/austzdee/StockSync" target="_blank" rel="noreferrer">View source ↗</a><a href="https://white-field-06b923110.7.azurestaticapps.net" target="_blank" rel="noreferrer">Live application ↗</a></div></div></article>
+            <article class="project-card"><div class="project-number">02</div><div class="project-content"><p class="project-label">Full-stack fitness application</p><h3>Workout Tracker</h3><p>A secure fitness platform that lets users create workout plans, manage exercises and review activity through a responsive, user-scoped application.</p><ul><li>JWT authentication and protected user workflows</li><li>Workout-plan and exercise CRUD with ownership controls</li><li>Responsive React and TypeScript interface</li><li>Cloud deployment with PostgreSQL-backed persistence</li></ul><div class="tags"><span>React</span><span>TypeScript</span><span>ASP.NET Core</span><span>PostgreSQL</span><span>Tailwind CSS</span></div><div class="project-links"><a href="https://github.com/austzdee/workout-tracker-client" target="_blank" rel="noreferrer">Frontend source ↗</a><a href="https://github.com/austzdee/WorkoutTrackerApi" target="_blank" rel="noreferrer">Backend source ↗</a><a href="https://workout-tracker-client-seven.vercel.app" target="_blank" rel="noreferrer">Live application ↗</a></div></div></article>
+            <article class="project-card"><div class="project-number">03</div><div class="project-content"><p class="project-label">Modernised front-end project</p><h3>Danito Café</h3><p>A responsive multi-page café website modernised with a Tailwind CSS v4 design system, automated production builds and GitHub Pages deployment validation.</p><ul><li>Reusable coffee, cream and gold design tokens across five static pages</li><li>Responsive navigation, product grids, forms and hospitality-focused content</li><li>Interactive FAQ behaviour and client-side contact-form validation</li><li>Tailwind CLI production build with automated GitHub Actions verification</li></ul><div class="tags"><span>HTML5</span><span>JavaScript</span><span>Tailwind CSS</span><span>GitHub Actions</span></div><div class="project-links"><a href="https://github.com/austzdee/dannitoCafe" target="_blank" rel="noreferrer">View source ↗</a><a href="https://austzdee.github.io/dannitoCafe/" target="_blank" rel="noreferrer">Live application ↗</a></div></div></article>
+          </div>
+        </section>
+        <section class="section split" id="about"><div class="section-heading"><p class="eyebrow">About</p><h2>Technical delivery shaped by operational experience.</h2></div><div class="about-copy"><p>I am a UK-based software developer focused on maintainable web applications and practical business systems.</p><p>My background in high-volume operations and customer service informs how I approach software: clarify the problem, protect critical workflows, make failures visible and build for the people using the system.</p><p>I completed an Advanced Diploma in Software Development covering C#, SQL, Azure and .NET, supported by front-end web development training and continued project-led learning.</p></div></section>
+        <section class="section" id="skills"><div class="section-heading"><p class="eyebrow">Capabilities</p><h2>A balanced full-stack toolkit.</h2></div><div class="skill-grid"><article><h3>Frontend</h3><ul><li>React</li><li>TypeScript</li><li>JavaScript</li><li>HTML5</li><li>CSS3</li><li>Tailwind CSS</li></ul></article><article><h3>Backend</h3><ul><li>C#</li><li>ASP.NET Core</li><li>REST APIs</li><li>Entity Framework Core</li><li>LINQ</li></ul></article><article><h3>Data & cloud</h3><ul><li>SQL Server</li><li>PostgreSQL</li><li>Azure</li><li>GitHub Actions</li><li>Vercel</li></ul></article><article><h3>Practices</h3><ul><li>OOP</li><li>SOLID</li><li>Service-layer architecture</li><li>Integration testing</li><li>Accessibility</li></ul></article></div></section>
+        <section class="contact section" id="contact"><p class="eyebrow">Contact</p><h2>Let’s discuss software, support or product engineering opportunities.</h2><div class="contact-links"><a href="mailto:austzdee@gmail.com">austzdee@gmail.com</a><a href="https://github.com/austzdee" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/daniel-okafor" target="_blank" rel="noreferrer">LinkedIn</a><span>Manchester, United Kingdom</span></div></section>
+      </main>
+      <footer><p>© 2026 Daniel Okafor</p><a href="#top">Back to top</a></footer>
+    </div>
   </body>
 </html>
