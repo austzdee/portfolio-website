@@ -43,6 +43,22 @@ const projects = [
       { label: 'Live application', href: 'https://workout-tracker-client-seven.vercel.app' },
     ],
   },
+  {
+    title: 'Danito Café',
+    label: 'Earlier front-end project',
+    summary:
+      'A responsive multi-page café website created to present products, business information and customer-facing content through a clear, visually themed interface.',
+    highlights: [
+      'Responsive navigation and layouts for desktop and mobile screens',
+      'Interactive FAQ behaviour and client-side contact-form validation',
+      'Product and menu presentation with pricing and ordering interactions',
+      'Location and customer-information sections designed for a hospitality business',
+    ],
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
+    links: [
+      { label: 'View source', href: 'https://github.com/austzdee/dannitoCafe' },
+    ],
+  },
 ]
 
 function App() {
@@ -88,7 +104,7 @@ function App() {
         <section className="section" id="work">
           <div className="section-heading">
             <p className="eyebrow">Selected work</p>
-            <h2>Projects designed beyond the tutorial stage.</h2>
+            <h2>Projects that show progression from front-end foundations to deployed full-stack systems.</h2>
           </div>
           <div className="project-list">
             {projects.map((project, index) => (
