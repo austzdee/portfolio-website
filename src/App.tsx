@@ -48,8 +48,6 @@ const projects = [
 function App() {
   return (
     <div className="site-shell">
-      <a className="skip-link" href="#main-content">Skip to main content</a>
-
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Daniel Okafor, home">
           DO<span>.</span>
