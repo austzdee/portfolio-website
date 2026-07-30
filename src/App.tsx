@@ -1,4 +1,4 @@
-import { ArrowUpRight, Github, Linkedin, Mail, MapPin } from 'lucide-react'
+import { ArrowUpRight, Download, Github, Linkedin, Mail, MapPin } from 'lucide-react'
 
 const skills = {
   Frontend: ['React', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'],
@@ -20,7 +20,10 @@ const projects = [
       'ASP.NET Core integration and validation test coverage',
     ],
     stack: ['React', 'TypeScript', 'ASP.NET Core', 'SQL Server', 'Azure'],
-    source: 'https://github.com/austzdee/StockSync',
+    links: [
+      { label: 'View source', href: 'https://github.com/austzdee/StockSync' },
+      { label: 'Live application', href: 'https://white-field-06b923110.7.azurestaticapps.net' },
+    ],
   },
   {
     title: 'Workout Tracker',
@@ -34,14 +37,19 @@ const projects = [
       'Cloud deployment with PostgreSQL-backed persistence',
     ],
     stack: ['React', 'TypeScript', 'ASP.NET Core', 'PostgreSQL', 'Tailwind CSS'],
-    source: 'https://github.com/austzdee/WorkoutTrackerApi',
-    live: 'https://workout-tracker-client-seven.vercel.app',
+    links: [
+      { label: 'Frontend source', href: 'https://github.com/austzdee/workout-tracker-client' },
+      { label: 'Backend source', href: 'https://github.com/austzdee/WorkoutTrackerApi' },
+      { label: 'Live application', href: 'https://workout-tracker-client-seven.vercel.app' },
+    ],
   },
 ]
 
 function App() {
   return (
     <div className="site-shell">
+      <a className="skip-link" href="#main-content">Skip to main content</a>
+
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Daniel Okafor, home">
           DO<span>.</span>
@@ -64,6 +72,9 @@ function App() {
             </p>
             <div className="actions">
               <a className="button primary" href="#work">Explore my work</a>
+              <a className="button secondary" href="assets/docs/Dannie.pdf" download>
+                Download CV <Download size={17} aria-hidden="true" />
+              </a>
               <a className="button secondary" href="mailto:austzdee@gmail.com">Contact me</a>
             </div>
           </div>
@@ -84,7 +95,7 @@ function App() {
           <div className="project-list">
             {projects.map((project, index) => (
               <article className="project-card" key={project.title}>
-                <div className="project-number">0{index + 1}</div>
+                <div className="project-number" aria-hidden="true">0{index + 1}</div>
                 <div className="project-content">
                   <p className="project-label">{project.label}</p>
                   <h3>{project.title}</h3>
@@ -96,8 +107,11 @@ function App() {
                     {project.stack.map((item) => <span key={item}>{item}</span>)}
                   </div>
                   <div className="project-links">
-                    <a href={project.source} target="_blank" rel="noreferrer">View source <ArrowUpRight size={17} /></a>
-                    {project.live && <a href={project.live} target="_blank" rel="noreferrer">Live application <ArrowUpRight size={17} /></a>}
+                    {project.links.map((link) => (
+                      <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
+                        {link.label} <ArrowUpRight size={17} aria-hidden="true" />
+                      </a>
+                    ))}
                   </div>
                 </div>
               </article>
@@ -136,10 +150,10 @@ function App() {
           <p className="eyebrow">Contact</p>
           <h2>Let’s discuss software, support or product engineering opportunities.</h2>
           <div className="contact-links">
-            <a href="mailto:austzdee@gmail.com"><Mail size={19} /> austzdee@gmail.com</a>
-            <a href="https://github.com/austzdee" target="_blank" rel="noreferrer"><Github size={19} /> GitHub</a>
-            <a href="https://www.linkedin.com/in/daniel-okafor" target="_blank" rel="noreferrer"><Linkedin size={19} /> LinkedIn</a>
-            <span><MapPin size={19} /> Manchester, United Kingdom</span>
+            <a href="mailto:austzdee@gmail.com"><Mail size={19} aria-hidden="true" /> austzdee@gmail.com</a>
+            <a href="https://github.com/austzdee" target="_blank" rel="noreferrer"><Github size={19} aria-hidden="true" /> GitHub</a>
+            <a href="https://www.linkedin.com/in/daniel-okafor" target="_blank" rel="noreferrer"><Linkedin size={19} aria-hidden="true" /> LinkedIn</a>
+            <span><MapPin size={19} aria-hidden="true" /> Manchester, United Kingdom</span>
           </div>
         </section>
       </main>
