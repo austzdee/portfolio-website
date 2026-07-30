@@ -43,6 +43,22 @@ const projects = [
       { label: 'Live application', href: 'https://workout-tracker-client-seven.vercel.app' },
     ],
   },
+  {
+    title: 'Danito Café',
+    label: 'Modernised front-end project',
+    summary:
+      'A responsive multi-page café website modernised with a Tailwind CSS v4 design system, automated production builds and GitHub Pages deployment validation.',
+    highlights: [
+      'Reusable coffee, cream and gold design tokens across five static pages',
+      'Responsive navigation, product grids, forms and hospitality-focused content',
+      'Interactive FAQ behaviour and client-side contact-form validation',
+      'Tailwind CLI production build with automated GitHub Actions verification',
+    ],
+    stack: ['HTML5', 'JavaScript', 'Tailwind CSS', 'GitHub Actions'],
+    links: [
+      { label: 'View source', href: 'https://github.com/austzdee/dannitoCafe' },
+    ],
+  },
 ]
 
 function App() {
@@ -88,7 +104,7 @@ function App() {
         <section className="section" id="work">
           <div className="section-heading">
             <p className="eyebrow">Selected work</p>
-            <h2>Projects designed beyond the tutorial stage.</h2>
+            <h2>Projects that show progression from front-end foundations to deployed full-stack systems.</h2>
           </div>
           <div className="project-list">
             {projects.map((project, index) => (
