@@ -45,16 +45,16 @@ const projects = [
   },
   {
     title: 'Danito Café',
-    label: 'Earlier front-end project',
+    label: 'Modernised front-end project',
     summary:
-      'A responsive multi-page café website created to present products, business information and customer-facing content through a clear, visually themed interface.',
+      'A responsive multi-page café website modernised with a Tailwind CSS v4 design system, automated production builds and GitHub Pages deployment validation.',
     highlights: [
-      'Responsive navigation and layouts for desktop and mobile screens',
+      'Reusable coffee, cream and gold design tokens across five static pages',
+      'Responsive navigation, product grids, forms and hospitality-focused content',
       'Interactive FAQ behaviour and client-side contact-form validation',
-      'Product and menu presentation with pricing and ordering interactions',
-      'Location and customer-information sections designed for a hospitality business',
+      'Tailwind CLI production build with automated GitHub Actions verification',
     ],
-    stack: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
+    stack: ['HTML5', 'JavaScript', 'Tailwind CSS', 'GitHub Actions'],
     links: [
       { label: 'View source', href: 'https://github.com/austzdee/dannitoCafe' },
     ],
