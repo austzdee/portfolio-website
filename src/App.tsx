@@ -10,7 +10,7 @@ const skills = {
 const projects = [
   {
     title: 'StockSync',
-    label: 'Featured full-stack platform',
+    label: 'Featured project · Deployed application',
     summary:
       'An inventory management platform for products, warehouses, stock operations, reporting and audit visibility. Built around secure APIs, validated workflows and production-focused engineering.',
     highlights: [
@@ -23,6 +23,22 @@ const projects = [
     links: [
       { label: 'View source', href: 'https://github.com/austzdee/StockSync' },
       { label: 'Live application', href: 'https://white-field-06b923110.7.azurestaticapps.net' },
+    ],
+  },
+  {
+    title: 'Cinema Reservation System',
+    label: 'Cinema operations platform · In active development',
+    summary:
+      'Building a full-stack cinema administration and reservation platform. Current functionality covers secured movie management and screening schedules, while customer booking flows remain in development.',
+    highlights: [
+      'Role-restricted JWT authentication and admin workflows',
+      'TMDB movie search and import alongside movie management',
+      'Showtime creation, editing, cancellation and filtering',
+      'ASP.NET Core API contracts, validation and integration tests',
+    ],
+    stack: ['C#', 'ASP.NET Core', 'EF Core', 'React', 'TypeScript', 'JWT'],
+    links: [
+      { label: 'Explore repository', href: 'https://github.com/austzdee/CinemaReservationSystem' },
     ],
   },
   {
@@ -57,6 +73,7 @@ const projects = [
     stack: ['HTML5', 'JavaScript', 'Tailwind CSS', 'GitHub Actions'],
     links: [
       { label: 'View source', href: 'https://github.com/austzdee/dannitoCafe' },
+      { label: 'Live website', href: 'https://austzdee.github.io/dannitoCafe/' },
     ],
   },
 ]
@@ -64,6 +81,7 @@ const projects = [
 function App() {
   return (
     <div className="site-shell">
+      <a className="skip-link" href="#main-content">Skip to main content</a>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Daniel Okafor, home">
           DO<span>.</span>
@@ -79,21 +97,21 @@ function App() {
       <main id="main-content">
         <section className="hero" id="top">
           <div className="hero-copy">
-            <p className="eyebrow">Software developer · Manchester, UK</p>
-            <h1>I build dependable full-stack software for real operational workflows.</h1>
+            <p className="eyebrow">Software Engineer · Manchester, UK</p>
+            <h1>Software Engineer building secure .NET APIs and modern React applications.</h1>
             <p className="hero-summary">
-              I develop accessible React and TypeScript interfaces backed by secure ASP.NET Core APIs, relational data and automated testing.
+              I work across C#, ASP.NET Core, React and TypeScript, turning business requirements into usable products. My portfolio combines commercial web development experience with deployed systems, automated testing and ongoing architectural learning.
             </p>
             <div className="actions">
               <a className="button primary" href="#work">Explore my work</a>
-              <a className="button secondary" href="assets/docs/Dannie.pdf" download>
+              <a className="button secondary" href={`${import.meta.env.BASE_URL}assets/docs/Dannie.pdf`} download>
                 Download CV <Download size={17} aria-hidden="true" />
               </a>
               <a className="button secondary" href="mailto:austzdee@gmail.com">Contact me</a>
             </div>
           </div>
           <aside className="hero-panel" aria-label="Current engineering focus">
-            <span>Current focus</span>
+            <span>Core engineering stack</span>
             <strong>React + TypeScript</strong>
             <strong>C# + ASP.NET Core</strong>
             <strong>SQL + Azure</strong>
@@ -104,7 +122,7 @@ function App() {
         <section className="section" id="work">
           <div className="section-heading">
             <p className="eyebrow">Selected work</p>
-            <h2>Projects that show progression from front-end foundations to deployed full-stack systems.</h2>
+            <h2>Selected projects: practical systems, engineering decisions and working software.</h2>
           </div>
           <div className="project-list">
             {projects.map((project, index) => (
@@ -139,9 +157,9 @@ function App() {
             <h2>Technical delivery shaped by operational experience.</h2>
           </div>
           <div className="about-copy">
-            <p>I am a UK-based software developer focused on maintainable web applications and practical business systems.</p>
-            <p>My background in high-volume operations and customer service informs how I approach software: clarify the problem, protect critical workflows, make failures visible and build for the people using the system.</p>
-            <p>I completed an Advanced Diploma in Software Development covering C#, SQL, Azure and .NET, supported by front-end web development training and continued project-led learning.</p>
+            <p>I am a Manchester-based Software Engineer with commercial experience delivering responsive web interfaces, improving usability and collaborating on application development. I specialise in the Microsoft .NET stack and React/TypeScript.</p>
+            <p>At Obligate Solutions (February 2025–March 2026), I worked on React, JavaScript, WordPress and Firebase projects, collaborating across requirements, implementation, testing and deployment. Previous work in high-volume operations strengthened my approach to reliability, communication and user-centred delivery.</p>
+            <p>I earned an Advanced Diploma in Software Development (Distinction, 2026). Through projects such as StockSync and Cinema Reservation System, I practise API design, authentication, database modelling, SOLID principles and integration testing.</p>
           </div>
         </section>
 
@@ -162,7 +180,7 @@ function App() {
 
         <section className="contact section" id="contact">
           <p className="eyebrow">Contact</p>
-          <h2>Let’s discuss software, support or product engineering opportunities.</h2>
+          <h2>Looking for a software engineer with hands-on .NET and React experience?</h2>
           <div className="contact-links">
             <a href="mailto:austzdee@gmail.com"><Mail size={19} aria-hidden="true" /> austzdee@gmail.com</a>
             <a href="https://github.com/austzdee" target="_blank" rel="noreferrer"><Github size={19} aria-hidden="true" /> GitHub</a>
